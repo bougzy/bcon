@@ -1,0 +1,31 @@
+.hero-banner {
+  background: url('https://images.pexels.com/photos/323776/pexels-photo-323776.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 4rem 0;
+  margin-bottom: 2rem;
+  opacity: 30;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+
+.carousel-caption-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.shadow-sm {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
